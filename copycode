@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy Promo Code</title>
+</head>
+<body>
+    <!-- Banner that the user clicks to copy the promo code -->
+    <div id="promo-banner" style="cursor: pointer; text-align: center; padding: 20px; background-color: #f0f0f0; border: 1px solid #ccc;">
+        Click here to copy the promo code
+    </div>
+
+    <!-- Hidden promo code that will be copied to clipboard -->
+    <div id="promo-code" style="display: none;">SUNWINTER</div>
+
+    <script>
+        // Add an event listener for the banner click
+        document.getElementById('promo-banner').addEventListener('click', function() {
+            // Get the promo code text
+            const promoCode = document.getElementById('promo-code').innerText;
+
+            // Create a temporary textarea element to hold the text
+            const tempInput = document.cr
+
